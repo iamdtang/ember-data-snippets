@@ -1,4 +1,4 @@
-'.source.js':
+'serializers/.source.js':
   'extractAttributes':
     'prefix': 'extractAttributes'
     'body': """
