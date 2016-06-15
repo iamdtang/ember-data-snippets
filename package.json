@@ -1,7 +1,7 @@
 {
   "name": "ember-data-snippets",
   "version": "0.3.0",
-  "description": "Snippets for Ember Data methods in Atom",
+  "description": "Snippets for Ember Data adapter and serializer methods in Atom",
   "engines": {
     "atom": "*"
   },

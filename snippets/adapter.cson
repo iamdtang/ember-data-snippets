@@ -1,260 +1,260 @@
 '.source.js':
-  'buildURL(modelName, id, snapshot, requestType, query)':
-    'prefix': 'buildURL(modelName, id, snapshot, requestType, query)'
+  'buildURL':
+    'prefix': 'buildURL'
     'body': """
-      buildURL(modelName, id, snapshot, requestType, query)id, snapshot, requestType, query) {
+      buildURL(modelName, id, snapshot, requestType, query) {
         $1
       }
     """
-  'createRecord(store, type, snapshot)':
-    'prefix': 'createRecord(store, type, snapshot)'
+  'createRecord':
+    'prefix': 'createRecord'
     'body': """
-      createRecord(store, type, snapshot)type, snapshot) {
+      createRecord(store, type, snapshot) {
         $1
       }
     """
-  'dataForRequest(params)':
-    'prefix': 'dataForRequest(params)'
+  'dataForRequest':
+    'prefix': 'dataForRequest'
     'body': """
-      dataForRequest(params)dataForRequest(params) {
+      dataForRequest(params) {
         $1
       }
     """
-  'deleteRecord(store, type, snapshot)':
-    'prefix': 'deleteRecord(store, type, snapshot)'
+  'deleteRecord':
+    'prefix': 'deleteRecord'
     'body': """
-      deleteRecord(store, type, snapshot)type, snapshot) {
+      deleteRecord(store, type, snapshot) {
         $1
       }
     """
-  'findAll(store, type, sinceToken, snapshotRecordArray)':
-    'prefix': 'findAll(store, type, sinceToken, snapshotRecordArray)'
+  'findAll':
+    'prefix': 'findAll'
     'body': """
-      findAll(store, type, sinceToken, snapshotRecordArray)type, sinceToken, snapshotRecordArray) {
+      findAll(store, type, sinceToken, snapshotRecordArray) {
         $1
       }
     """
-  'findBelongsTo(store, snapshot, url)':
-    'prefix': 'findBelongsTo(store, snapshot, url)'
+  'findBelongsTo':
+    'prefix': 'findBelongsTo'
     'body': """
-      findBelongsTo(store, snapshot, url)snapshot, url) {
+      findBelongsTo(store, snapshot, url) {
         $1
       }
     """
-  'findHasMany(store, snapshot, url)':
-    'prefix': 'findHasMany(store, snapshot, url)'
+  'findHasMany':
+    'prefix': 'findHasMany'
     'body': """
-      findHasMany(store, snapshot, url)snapshot, url) {
+      findHasMany(store, snapshot, url) {
         $1
       }
     """
-  'findMany(store, type, ids, snapshots)':
-    'prefix': 'findMany(store, type, ids, snapshots)'
+  'findMany':
+    'prefix': 'findMany'
     'body': """
-      findMany(store, type, ids, snapshots)type, ids, snapshots) {
+      findMany(store, type, ids, snapshots) {
         $1
       }
     """
-  'findRecord(store, type, id, snapshot)':
-    'prefix': 'findRecord(store, type, id, snapshot)'
+  'findRecord':
+    'prefix': 'findRecord'
     'body': """
-      findRecord(store, type, id, snapshot)type, id, snapshot) {
+      findRecord(store, type, id, snapshot) {
         $1
       }
     """
-  'generateIdForRecord(store, type, inputProperties)':
-    'prefix': 'generateIdForRecord(store, type, inputProperties)'
+  'generateIdForRecord':
+    'prefix': 'generateIdForRecord'
     'body': """
-      generateIdForRecord(store, type, inputProperties)type, inputProperties) {
+      generateIdForRecord(store, type, inputProperties) {
         $1
       }
     """
-  'groupRecordsForFindMany(store, snapshots)':
-    'prefix': 'groupRecordsForFindMany(store, snapshots)'
+  'groupRecordsForFindMany':
+    'prefix': 'groupRecordsForFindMany'
     'body': """
-      groupRecordsForFindMany(store, snapshots)snapshots) {
+      groupRecordsForFindMany(store, snapshots) {
         $1
       }
     """
-  'handleResponse(status, headers, payload, requestData)':
-    'prefix': 'handleResponse(status, headers, payload, requestData)'
+  'handleResponse':
+    'prefix': 'handleResponse'
     'body': """
-      handleResponse(status, headers, payload, requestData)headers, payload, requestData) {
+      handleResponse(status, headers, payload, requestData) {
         $1
       }
     """
-  'headersForRequest(params)':
-    'prefix': 'headersForRequest(params)'
+  'headersForRequest':
+    'prefix': 'headersForRequest'
     'body': """
-      headersForRequest(params)headersForRequest(params) {
+      headersForRequest(params) {
         $1
       }
     """
-  'isInvalid(status, headers, payload)':
-    'prefix': 'isInvalid(status, headers, payload)'
+  'isInvalid':
+    'prefix': 'isInvalid'
     'body': """
-      isInvalid(status, headers, payload)headers, payload) {
+      isInvalid(status, headers, payload) {
         $1
       }
     """
-  'isSuccess(status, headers, payload)':
-    'prefix': 'isSuccess(status, headers, payload)'
+  'isSuccess':
+    'prefix': 'isSuccess'
     'body': """
-      isSuccess(status, headers, payload)headers, payload) {
+      isSuccess(status, headers, payload) {
         $1
       }
     """
-  'methodForRequest(params)':
-    'prefix': 'methodForRequest(params)'
+  'methodForRequest':
+    'prefix': 'methodForRequest'
     'body': """
-      methodForRequest(params)methodForRequest(params) {
+      methodForRequest(params) {
         $1
       }
     """
-  'pathForType(modelName)':
-    'prefix': 'pathForType(modelName)'
+  'pathForType':
+    'prefix': 'pathForType'
     'body': """
-      pathForType(modelName)pathForType(modelName) {
+      pathForType(modelName) {
         $1
       }
     """
-  'query(store, type, query)':
-    'prefix': 'query(store, type, query)'
+  'query':
+    'prefix': 'query'
     'body': """
-      query(store, type, query)type, query) {
+      query(store, type, query) {
         $1
       }
     """
-  'queryRecord(store, type, query)':
-    'prefix': 'queryRecord(store, type, query)'
+  'queryRecord':
+    'prefix': 'queryRecord'
     'body': """
-      queryRecord(store, type, query)type, query) {
+      queryRecord(store, type, query) {
         $1
       }
     """
-  'serialize(snapshot, options)':
-    'prefix': 'serialize(snapshot, options)'
+  'serialize':
+    'prefix': 'serialize'
     'body': """
-      serialize(snapshot, options)options) {
+      serialize(snapshot, options) {
         $1
       }
     """
-  'shouldBackgroundReloadAll(store, snapshotRecordArray)':
-    'prefix': 'shouldBackgroundReloadAll(store, snapshotRecordArray)'
+  'shouldBackgroundReloadAll':
+    'prefix': 'shouldBackgroundReloadAll'
     'body': """
-      shouldBackgroundReloadAll(store, snapshotRecordArray)snapshotRecordArray) {
+      shouldBackgroundReloadAll(store, snapshotRecordArray) {
         $1
       }
     """
-  'shouldBackgroundReloadRecord(store, snapshot)':
-    'prefix': 'shouldBackgroundReloadRecord(store, snapshot)'
+  'shouldBackgroundReloadRecord':
+    'prefix': 'shouldBackgroundReloadRecord'
     'body': """
-      shouldBackgroundReloadRecord(store, snapshot)snapshot) {
+      shouldBackgroundReloadRecord(store, snapshot) {
         $1
       }
     """
-  'shouldReloadAll(store, snapshotRecordArray)':
-    'prefix': 'shouldReloadAll(store, snapshotRecordArray)'
+  'shouldReloadAll':
+    'prefix': 'shouldReloadAll'
     'body': """
-      shouldReloadAll(store, snapshotRecordArray)snapshotRecordArray) {
+      shouldReloadAll(store, snapshotRecordArray) {
         $1
       }
     """
-  'shouldReloadRecord(store, snapshot)':
-    'prefix': 'shouldReloadRecord(store, snapshot)'
+  'shouldReloadRecord':
+    'prefix': 'shouldReloadRecord'
     'body': """
-      shouldReloadRecord(store, snapshot)snapshot) {
+      shouldReloadRecord(store, snapshot) {
         $1
       }
     """
-  'sortQueryParams(obj)':
-    'prefix': 'sortQueryParams(obj)'
+  'sortQueryParams':
+    'prefix': 'sortQueryParams'
     'body': """
-      sortQueryParams(obj)sortQueryParams(obj) {
+      sortQueryParams(obj) {
         $1
       }
     """
-  'updateRecord(store, type, snapshot)':
-    'prefix': 'updateRecord(store, type, snapshot)'
+  'updateRecord':
+    'prefix': 'updateRecord'
     'body': """
-      updateRecord(store, type, snapshot)type, snapshot) {
+      updateRecord(store, type, snapshot) {
         $1
       }
     """
-  'urlForCreateRecord(modelName, snapshot)':
-    'prefix': 'urlForCreateRecord(modelName, snapshot)'
+  'urlForCreateRecord':
+    'prefix': 'urlForCreateRecord'
     'body': """
-      urlForCreateRecord(modelName, snapshot)snapshot) {
+      urlForCreateRecord(modelName, snapshot) {
         $1
       }
     """
-  'urlForDeleteRecord(id, modelName, snapshot)':
-    'prefix': 'urlForDeleteRecord(id, modelName, snapshot)'
+  'urlForDeleteRecord':
+    'prefix': 'urlForDeleteRecord'
     'body': """
-      urlForDeleteRecord(id, modelName, snapshot)modelName, snapshot) {
+      urlForDeleteRecord(id, modelName, snapshot) {
         $1
       }
     """
-  'urlForFindAll(modelName, snapshot)':
-    'prefix': 'urlForFindAll(modelName, snapshot)'
+  'urlForFindAll':
+    'prefix': 'urlForFindAll'
     'body': """
-      urlForFindAll(modelName, snapshot)snapshot) {
+      urlForFindAll(modelName, snapshot) {
         $1
       }
     """
-  'urlForFindBelongsTo(id, modelName, snapshot)':
-    'prefix': 'urlForFindBelongsTo(id, modelName, snapshot)'
+  'urlForFindBelongsTo':
+    'prefix': 'urlForFindBelongsTo'
     'body': """
-      urlForFindBelongsTo(id, modelName, snapshot)modelName, snapshot) {
+      urlForFindBelongsTo(id, modelName, snapshot) {
         $1
       }
     """
-  'urlForFindHasMany(id, modelName, snapshot)':
-    'prefix': 'urlForFindHasMany(id, modelName, snapshot)'
+  'urlForFindHasMany':
+    'prefix': 'urlForFindHasMany'
     'body': """
-      urlForFindHasMany(id, modelName, snapshot)modelName, snapshot) {
+      urlForFindHasMany(id, modelName, snapshot) {
         $1
       }
     """
-  'urlForFindMany(ids, modelName, snapshots)':
-    'prefix': 'urlForFindMany(ids, modelName, snapshots)'
+  'urlForFindMany':
+    'prefix': 'urlForFindMany'
     'body': """
-      urlForFindMany(ids, modelName, snapshots)modelName, snapshots) {
+      urlForFindMany(ids, modelName, snapshots) {
         $1
       }
     """
-  'urlForFindRecord(id, modelName, snapshot)':
-    'prefix': 'urlForFindRecord(id, modelName, snapshot)'
+  'urlForFindRecord':
+    'prefix': 'urlForFindRecord'
     'body': """
-      urlForFindRecord(id, modelName, snapshot)modelName, snapshot) {
+      urlForFindRecord(id, modelName, snapshot) {
         $1
       }
     """
-  'urlForQuery(query, modelName)':
-    'prefix': 'urlForQuery(query, modelName)'
+  'urlForQuery':
+    'prefix': 'urlForQuery'
     'body': """
-      urlForQuery(query, modelName)modelName) {
+      urlForQuery(query, modelName) {
         $1
       }
     """
-  'urlForQueryRecord(query, modelName)':
-    'prefix': 'urlForQueryRecord(query, modelName)'
+  'urlForQueryRecord':
+    'prefix': 'urlForQueryRecord'
     'body': """
-      urlForQueryRecord(query, modelName)modelName) {
+      urlForQueryRecord(query, modelName) {
         $1
       }
     """
-  'urlForRequest(params)':
-    'prefix': 'urlForRequest(params)'
+  'urlForRequest':
+    'prefix': 'urlForRequest'
     'body': """
-      urlForRequest(params)urlForRequest(params) {
+      urlForRequest(params) {
         $1
       }
     """
-  'urlForUpdateRecord(id, modelName, snapshot)':
-    'prefix': 'urlForUpdateRecord(id, modelName, snapshot)'
+  'urlForUpdateRecord':
+    'prefix': 'urlForUpdateRecord'
     'body': """
-      urlForUpdateRecord(id, modelName, snapshot)modelName, snapshot) {
+      urlForUpdateRecord(id, modelName, snapshot) {
         $1
       }
     """

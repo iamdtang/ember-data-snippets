@@ -1,246 +1,246 @@
 '.source.js':
-  'extractAttributes(modelClass, resourceHash)':
-    'prefix': 'extractAttributes(modelClass, resourceHash)'
+  'extractAttributes':
+    'prefix': 'extractAttributes'
     'body': """
-      extractAttributes(modelClass, resourceHash)resourceHash) {
+      extractAttributes(modelClass, resourceHash) {
         $1
       }
     """
-  'extractErrors(store, typeClass, payload, id)':
-    'prefix': 'extractErrors(store, typeClass, payload, id)'
+  'extractErrors':
+    'prefix': 'extractErrors'
     'body': """
-      extractErrors(store, typeClass, payload, id)typeClass, payload, id) {
+      extractErrors(store, typeClass, payload, id) {
         $1
       }
     """
-  'extractId(modelClass, resourceHash)':
-    'prefix': 'extractId(modelClass, resourceHash)'
+  'extractId':
+    'prefix': 'extractId'
     'body': """
-      extractId(modelClass, resourceHash)resourceHash) {
+      extractId(modelClass, resourceHash) {
         $1
       }
     """
-  'extractMeta(store, modelClass, payload)':
-    'prefix': 'extractMeta(store, modelClass, payload)'
+  'extractMeta':
+    'prefix': 'extractMeta'
     'body': """
-      extractMeta(store, modelClass, payload)modelClass, payload) {
+      extractMeta(store, modelClass, payload) {
         $1
       }
     """
-  'extractPolymorphicRelationship(relationshipType, relationshipHash, relationshipOptions)':
-    'prefix': 'extractPolymorphicRelationship(relationshipType, relationshipHash, relationshipOptions)'
+  'extractPolymorphicRelationship':
+    'prefix': 'extractPolymorphicRelationship'
     'body': """
-      extractPolymorphicRelationship(relationshipType, relationshipHash, relationshipOptions)relationshipHash, relationshipOptions) {
+      extractPolymorphicRelationship(relationshipType, relationshipHash, relationshipOptions) {
         $1
       }
     """
-  'extractRelationship(relationshipModelName, relationshipHash)':
-    'prefix': 'extractRelationship(relationshipModelName, relationshipHash)'
+  'extractRelationship':
+    'prefix': 'extractRelationship'
     'body': """
-      extractRelationship(relationshipModelName, relationshipHash)relationshipHash) {
+      extractRelationship(relationshipModelName, relationshipHash) {
         $1
       }
     """
-  'extractRelationships(modelClass, resourceHash)':
-    'prefix': 'extractRelationships(modelClass, resourceHash)'
+  'extractRelationships':
+    'prefix': 'extractRelationships'
     'body': """
-      extractRelationships(modelClass, resourceHash)resourceHash) {
+      extractRelationships(modelClass, resourceHash) {
         $1
       }
     """
-  'keyForAttribute(key, method)':
-    'prefix': 'keyForAttribute(key, method)'
+  'keyForAttribute':
+    'prefix': 'keyForAttribute'
     'body': """
-      keyForAttribute(key, method)method) {
+      keyForAttribute(key, method) {
         $1
       }
     """
-  'keyForLink(key, kind)':
-    'prefix': 'keyForLink(key, kind)'
+  'keyForLink':
+    'prefix': 'keyForLink'
     'body': """
-      keyForLink(key, kind)kind) {
+      keyForLink(key, kind) {
         $1
       }
     """
-  'keyForPolymorphicType(key, typeClass, method)':
-    'prefix': 'keyForPolymorphicType(key, typeClass, method)'
+  'keyForPolymorphicType':
+    'prefix': 'keyForPolymorphicType'
     'body': """
-      keyForPolymorphicType(key, typeClass, method)typeClass, method) {
+      keyForPolymorphicType(key, typeClass, method) {
         $1
       }
     """
-  'keyForRelationship(key, typeClass, method)':
-    'prefix': 'keyForRelationship(key, typeClass, method)'
+  'keyForRelationship':
+    'prefix': 'keyForRelationship'
     'body': """
-      keyForRelationship(key, typeClass, method)typeClass, method) {
+      keyForRelationship(key, typeClass, method) {
         $1
       }
     """
-  'modelNameFromPayloadKey(key)':
-    'prefix': 'modelNameFromPayloadKey(key)'
+  'modelNameFromPayloadKey':
+    'prefix': 'modelNameFromPayloadKey'
     'body': """
-      modelNameFromPayloadKey(key)modelNameFromPayloadKey(key) {
+      modelNameFromPayloadKey(key) {
         $1
       }
     """
-  'normalize(modelClass, resourceHash, prop)':
-    'prefix': 'normalize(modelClass, resourceHash, prop)'
+  'normalize':
+    'prefix': 'normalize'
     'body': """
-      normalize(modelClass, resourceHash, prop)resourceHash, prop) {
+      normalize(modelClass, resourceHash, prop) {
         $1
       }
     """
-  'normalizeArrayResponse(store, primaryModelClass, payload, id, requestType)':
-    'prefix': 'normalizeArrayResponse(store, primaryModelClass, payload, id, requestType)'
+  'normalizeArrayResponse':
+    'prefix': 'normalizeArrayResponse'
     'body': """
-      normalizeArrayResponse(store, primaryModelClass, payload, id, requestType)primaryModelClass, payload, id, requestType) {
+      normalizeArrayResponse(store, primaryModelClass, payload, id, requestType) {
         $1
       }
     """
-  'normalizeCreateRecordResponse(store, primaryModelClass, payload, id, requestType)':
-    'prefix': 'normalizeCreateRecordResponse(store, primaryModelClass, payload, id, requestType)'
+  'normalizeCreateRecordResponse':
+    'prefix': 'normalizeCreateRecordResponse'
     'body': """
-      normalizeCreateRecordResponse(store, primaryModelClass, payload, id, requestType)primaryModelClass, payload, id, requestType) {
+      normalizeCreateRecordResponse(store, primaryModelClass, payload, id, requestType) {
         $1
       }
     """
-  'normalizeDeleteRecordResponse(store, primaryModelClass, payload, id, requestType)':
-    'prefix': 'normalizeDeleteRecordResponse(store, primaryModelClass, payload, id, requestType)'
+  'normalizeDeleteRecordResponse':
+    'prefix': 'normalizeDeleteRecordResponse'
     'body': """
-      normalizeDeleteRecordResponse(store, primaryModelClass, payload, id, requestType)primaryModelClass, payload, id, requestType) {
+      normalizeDeleteRecordResponse(store, primaryModelClass, payload, id, requestType) {
         $1
       }
     """
-  'normalizeFindAllResponse(store, primaryModelClass, payload, id, requestType)':
-    'prefix': 'normalizeFindAllResponse(store, primaryModelClass, payload, id, requestType)'
+  'normalizeFindAllResponse':
+    'prefix': 'normalizeFindAllResponse'
     'body': """
-      normalizeFindAllResponse(store, primaryModelClass, payload, id, requestType)primaryModelClass, payload, id, requestType) {
+      normalizeFindAllResponse(store, primaryModelClass, payload, id, requestType) {
         $1
       }
     """
-  'normalizeFindBelongsToResponse(store, primaryModelClass, payload, id, requestType)':
-    'prefix': 'normalizeFindBelongsToResponse(store, primaryModelClass, payload, id, requestType)'
+  'normalizeFindBelongsToResponse':
+    'prefix': 'normalizeFindBelongsToResponse'
     'body': """
-      normalizeFindBelongsToResponse(store, primaryModelClass, payload, id, requestType)primaryModelClass, payload, id, requestType) {
+      normalizeFindBelongsToResponse(store, primaryModelClass, payload, id, requestType) {
         $1
       }
     """
-  'normalizeFindHasManyResponse(store, primaryModelClass, payload, id, requestType)':
-    'prefix': 'normalizeFindHasManyResponse(store, primaryModelClass, payload, id, requestType)'
+  'normalizeFindHasManyResponse':
+    'prefix': 'normalizeFindHasManyResponse'
     'body': """
-      normalizeFindHasManyResponse(store, primaryModelClass, payload, id, requestType)primaryModelClass, payload, id, requestType) {
+      normalizeFindHasManyResponse(store, primaryModelClass, payload, id, requestType) {
         $1
       }
     """
-  'normalizeFindManyResponse(store, primaryModelClass, payload, id, requestType)':
-    'prefix': 'normalizeFindManyResponse(store, primaryModelClass, payload, id, requestType)'
+  'normalizeFindManyResponse':
+    'prefix': 'normalizeFindManyResponse'
     'body': """
-      normalizeFindManyResponse(store, primaryModelClass, payload, id, requestType)primaryModelClass, payload, id, requestType) {
+      normalizeFindManyResponse(store, primaryModelClass, payload, id, requestType) {
         $1
       }
     """
-  'normalizeFindRecordResponse(store, primaryModelClass, payload, id, requestType)':
-    'prefix': 'normalizeFindRecordResponse(store, primaryModelClass, payload, id, requestType)'
+  'normalizeFindRecordResponse':
+    'prefix': 'normalizeFindRecordResponse'
     'body': """
-      normalizeFindRecordResponse(store, primaryModelClass, payload, id, requestType)primaryModelClass, payload, id, requestType) {
+      normalizeFindRecordResponse(store, primaryModelClass, payload, id, requestType) {
         $1
       }
     """
-  'normalizeQueryRecordResponse(store, primaryModelClass, payload, id, requestType)':
-    'prefix': 'normalizeQueryRecordResponse(store, primaryModelClass, payload, id, requestType)'
+  'normalizeQueryRecordResponse':
+    'prefix': 'normalizeQueryRecordResponse'
     'body': """
-      normalizeQueryRecordResponse(store, primaryModelClass, payload, id, requestType)primaryModelClass, payload, id, requestType) {
+      normalizeQueryRecordResponse(store, primaryModelClass, payload, id, requestType) {
         $1
       }
     """
-  'normalizeQueryResponse(store, primaryModelClass, payload, id, requestType)':
-    'prefix': 'normalizeQueryResponse(store, primaryModelClass, payload, id, requestType)'
+  'normalizeQueryResponse':
+    'prefix': 'normalizeQueryResponse'
     'body': """
-      normalizeQueryResponse(store, primaryModelClass, payload, id, requestType)primaryModelClass, payload, id, requestType) {
+      normalizeQueryResponse(store, primaryModelClass, payload, id, requestType) {
         $1
       }
     """
-  'normalizeResponse(store, primaryModelClass, payload, id, requestType)':
-    'prefix': 'normalizeResponse(store, primaryModelClass, payload, id, requestType)'
+  'normalizeResponse':
+    'prefix': 'normalizeResponse'
     'body': """
-      normalizeResponse(store, primaryModelClass, payload, id, requestType)primaryModelClass, payload, id, requestType) {
+      normalizeResponse(store, primaryModelClass, payload, id, requestType) {
         $1
       }
     """
-  'normalizeSaveResponse(store, primaryModelClass, payload, id, requestType)':
-    'prefix': 'normalizeSaveResponse(store, primaryModelClass, payload, id, requestType)'
+  'normalizeSaveResponse':
+    'prefix': 'normalizeSaveResponse'
     'body': """
-      normalizeSaveResponse(store, primaryModelClass, payload, id, requestType)primaryModelClass, payload, id, requestType) {
+      normalizeSaveResponse(store, primaryModelClass, payload, id, requestType) {
         $1
       }
     """
-  'normalizeSingleResponse(store, primaryModelClass, payload, id, requestType)':
-    'prefix': 'normalizeSingleResponse(store, primaryModelClass, payload, id, requestType)'
+  'normalizeSingleResponse':
+    'prefix': 'normalizeSingleResponse'
     'body': """
-      normalizeSingleResponse(store, primaryModelClass, payload, id, requestType)primaryModelClass, payload, id, requestType) {
+      normalizeSingleResponse(store, primaryModelClass, payload, id, requestType) {
         $1
       }
     """
-  'normalizeUpdateRecordResponse(store, primaryModelClass, payload, id, requestType)':
-    'prefix': 'normalizeUpdateRecordResponse(store, primaryModelClass, payload, id, requestType)'
+  'normalizeUpdateRecordResponse':
+    'prefix': 'normalizeUpdateRecordResponse'
     'body': """
-      normalizeUpdateRecordResponse(store, primaryModelClass, payload, id, requestType)primaryModelClass, payload, id, requestType) {
+      normalizeUpdateRecordResponse(store, primaryModelClass, payload, id, requestType) {
         $1
       }
     """
-  'payloadKeyFromModelName(modelName)':
-    'prefix': 'payloadKeyFromModelName(modelName)'
+  'payloadKeyFromModelName':
+    'prefix': 'payloadKeyFromModelName'
     'body': """
-      payloadKeyFromModelName(modelName)payloadKeyFromModelName(modelName) {
+      payloadKeyFromModelName(modelName) {
         $1
       }
     """
-  'pushPayload(store, payload)':
-    'prefix': 'pushPayload(store, payload)'
+  'pushPayload':
+    'prefix': 'pushPayload'
     'body': """
-      pushPayload(store, payload)payload) {
+      pushPayload(store, payload) {
         $1
       }
     """
-  'serialize(snapshot, options)':
-    'prefix': 'serialize(snapshot, options)'
+  'serialize':
+    'prefix': 'serialize'
     'body': """
-      serialize(snapshot, options)options) {
+      serialize(snapshot, options) {
         $1
       }
     """
-  'serializeAttribute(snapshot, json, key, attribute)':
-    'prefix': 'serializeAttribute(snapshot, json, key, attribute)'
+  'serializeAttribute':
+    'prefix': 'serializeAttribute'
     'body': """
-      serializeAttribute(snapshot, json, key, attribute)json, key, attribute) {
+      serializeAttribute(snapshot, json, key, attribute) {
         $1
       }
     """
-  'serializeBelongsTo(snapshot, json, relationship)':
-    'prefix': 'serializeBelongsTo(snapshot, json, relationship)'
+  'serializeBelongsTo':
+    'prefix': 'serializeBelongsTo'
     'body': """
-      serializeBelongsTo(snapshot, json, relationship)json, relationship) {
+      serializeBelongsTo(snapshot, json, relationship) {
         $1
       }
     """
-  'serializeHasMany(snapshot, json, relationship)':
-    'prefix': 'serializeHasMany(snapshot, json, relationship)'
+  'serializeHasMany':
+    'prefix': 'serializeHasMany'
     'body': """
-      serializeHasMany(snapshot, json, relationship)json, relationship) {
+      serializeHasMany(snapshot, json, relationship) {
         $1
       }
     """
-  'serializeIntoHash(hash, typeClass, snapshot, options)':
-    'prefix': 'serializeIntoHash(hash, typeClass, snapshot, options)'
+  'serializeIntoHash':
+    'prefix': 'serializeIntoHash'
     'body': """
-      serializeIntoHash(hash, typeClass, snapshot, options)typeClass, snapshot, options) {
+      serializeIntoHash(hash, typeClass, snapshot, options) {
         $1
       }
     """
-  'serializePolymorphicType(snapshot, json, relationship)':
-    'prefix': 'serializePolymorphicType(snapshot, json, relationship)'
+  'serializePolymorphicType':
+    'prefix': 'serializePolymorphicType'
     'body': """
-      serializePolymorphicType(snapshot, json, relationship)json, relationship) {
+      serializePolymorphicType(snapshot, json, relationship) {
         $1
       }
     """
