@@ -1,4 +1,4 @@
-'adapters/.source.js':
+'.source.js':
   'buildURL':
     'prefix': 'buildURL'
     'body': """
