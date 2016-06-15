@@ -1,0 +1,17 @@
+{
+  "name": "ember-data-snippets",
+  "version": "0.0.0",
+  "description": "Snippets for Ember Data methods in Atom",
+  "engines": {
+    "atom": "*"
+  },
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/skaterdav85/ember-data-snippets"
+  },
+  "bugs": {
+    "url": "https://github.com/skaterdav85/ember-data-snippets/issues"
+  },
+  "license": "MIT"
+}
