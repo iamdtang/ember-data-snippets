@@ -72,7 +72,7 @@
   'keyForRelationship':
     'prefix': 'keyForRelationship'
     'body': """
-      keyForRelationship(key, typeClass, method) {
+      keyForRelationship(key, relationship, method) {
         $1
       }
     """
